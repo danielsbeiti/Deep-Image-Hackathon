@@ -35,6 +35,8 @@ We have trainied two models:
 
 The training of those 2 models was done in the [data_augmentation](model_training.ipynb) notebook.
 
+The training was done on google colab in order to use the T4 GPU offered freely, which made training about 15 times faster.
+
 We have prefered to go for a model from scratch rather than using transfer learning and pre trained model which were working as well as our model while being much more complicated to implement, and heavier to use. In fact, the higher number of weights makes it less usuable in drones which have small computational power, one of our potential use case.
 
 For clarity, we have ommited the hyper parameter search as many of the models we have tried had essentially the same structure but with different drop out rates, more or less keras.Conv2D layers, normalization, etc..
