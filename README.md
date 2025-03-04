@@ -1,5 +1,10 @@
 # QB Hackathon DARE
 
+This repository is submitted as part of our **Quantum Black Hackathon** with **Daniel Sbeiti, Roman Poggi and Alexandre Bismuth**.
+It consists in **detecting** with maximal accuracy, AND **locating**, invisible **methane gaz leaks from sattelite images of pipelines**. 
+
+<br>
+
 In order to have the required installation, please run in terminal the following command:
 
 > ```pip: -r requirements.txt```
